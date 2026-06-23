@@ -1,14 +1,14 @@
-# Scrapeit Cloud NodeJS SDK
-[Scrapeit Cloud](https://scrape-it.cloud/) - Web Scraping API with Proxy Rotation. Get valuable data at scale in HTML format from any website without need for a proxy.
+# HasData NodeJS SDK
+[HasData](https://hasdata.com/) - Web Scraping API with Proxy Rotation. Get valuable data at scale in HTML format from any website without need for a proxy.
 
-Interface to call [Scrapeit Cloud API](https://scrape-it.cloud/) easily from Node.
+Interface to call [HasData API](https://hasdata.com/) easily from Node.
 
 ## Install
 
     npm i @scrapeit-cloud/scrapeit-cloud-node-sdk
 
 ## Usage
-Signup to Scrapeit Cloud to  [get your API key](https://app.scrape-it.cloud/sign-up) and some free credits to get started.
+Signup to HasData to  [get your API key](https://app.hasdata.com/sign-up) and some free credits to get started.
 
     import ScrapeitSDK from './index';
 
@@ -31,6 +31,6 @@ Signup to Scrapeit Cloud to  [get your API key](https://app.scrape-it.cloud/sign
 
     main();
 
-Scrapeit Cloud supports various parameters to execute a custom JavaScript script, use a premium proxy from a specific geolocation and more.
+HasData supports various parameters to execute a custom JavaScript script, use a premium proxy from a specific geolocation and more.
 
-You can find all the supported parameters on [Scrapeit Cloud documentation](https://scrape-it.cloud/docs/).
+You can find all the supported parameters on [HasData documentation](https://hasdata.com/docs/).
