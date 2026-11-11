@@ -1,6 +1,6 @@
 {
   "name": "@scrapeit-cloud/scrapeit-cloud-node-sdk",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "NodeJS SDK to interact with Scrape-it Cloud API",
   "main": "src/index.js",
   "scripts": {

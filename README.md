@@ -19,8 +19,8 @@ Signup to HasData to  [get your API key](https://app.hasdata.com/sign-up) and so
         const response = await scrapeit.scrape({
           "url": "https://example.com",
           "screenshot": true,
-          "proxy_country": "US",
-          "proxy_type": "datacenter"
+          "proxyCountry": "US",
+          "proxyType": "datacenter"
         });
 
         console.log(response);
@@ -33,4 +33,4 @@ Signup to HasData to  [get your API key](https://app.hasdata.com/sign-up) and so
 
 HasData supports various parameters to execute a custom JavaScript script, use a premium proxy from a specific geolocation and more.
 
-You can find all the supported parameters on [HasData documentation](https://hasdata.com/docs/).
+You can find all the supported parameters on [HasData documentation](https://docs.hasdata.com/apis/web-scraping-api/api-params).
