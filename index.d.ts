@@ -15,10 +15,10 @@ declare type ScenarioStep = {
   evaluate?: string,
   click?: string,
   wait?: number,
-  wait_for?: string,
-  wait_for_and_click?: string,
-  scroll_x?: number,
-  scroll_y?: number,
+  waitFor?: string,
+  waitForAndClick?: string,
+  scrollX?: number,
+  scrollY?: number,
   fill?: Array<string>
 }
 
@@ -26,14 +26,15 @@ declare type ScrapeitCloudAPIParams = {
   url: string,
   screenshot?: boolean,
   wait?: number,
-  wait_for?: string,
-  proxy_type?: string|ProxyType,
-  proxy_country?: string,
-  block_resources?: boolean,
-  block_urls?: Array<string>,
+  waitFor?: string,
+  proxyType?: string|ProxyType,
+  proxyCountry?: string,
+  blockResources?: boolean,
+  blockUrls?: Array<string>,
   headers?: CustomHeaders,
-  extract_rules?: ExtractionRules
-  js_scenario?: Array<ScenarioStep>,
+  extractRules?: ExtractionRules
+  jsRendering?: boolean,
+  jsScenario?: Array<ScenarioStep>,
   window_height?: number,
   window_width?: number,
 }
